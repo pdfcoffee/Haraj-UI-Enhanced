@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "Haraj UI Enhanced",
+    "version": "1.0.0",
+    "short_name": "Haraj UI Enhanced",
+    "description": "Browser extension for enhancement of haraj.com.sa UI to show more contrasting colors and more posts on home screen, as a grid.",
+    "author": "PDF Coffee",
+    "homepage_url": "https://github.com/pdfcoffee/Haraj-UI-Enhanced/",
+    "icons": {
+      "16": "gfx/icon16.png",
+      "32": "gfx/icon32.png",
+      "48": "gfx/icon48.png",
+      "128": "gfx/icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://haraj.com.sa/*", "*://legacy.haraj.com.sa/*"],
+        "css": ["css/haraj.com.sa.css"]
+      },
+      {
+        "matches": ["*://beta.haraj.com.sa/*"],
+        "css": ["css/beta.haraj.com.sa.css"]
+      }
+  ],
+    "web_accessible_resources": ["gfx/*.*", "fonts/*.woff2"]
+/*
+"permssions":["activeTab"],
+"browser_action": {
+  "default_title": "Haraj UI Enhanced",
+   "default_icon": "gfx/icon16.png"
+  }
+  */
+}

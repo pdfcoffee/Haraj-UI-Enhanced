@@ -1,0 +1,251 @@
+/* ================== Imports ================== */
+@import "fonts";
+@import "variables";
+
+/* ================== Global ================== */
+div.container {
+  background: $colorLite;
+}
+a,
+form,
+.singleContent,
+.cities,
+.tag,
+.adxExtraInfoPart,
+.pagination {
+  font-family: $fontContent;
+  font-size: $fontNormal;
+}
+#AJAXloaded > div > ul > li > a {
+  border: 1px solid $colorDark;
+  color: $colorDark;
+}
+
+
+/* Image grid view */
+a > .fa.fa-camera-retro.left,
+.switchPicTag {
+  display: none;
+}
+a[href="/car_سيارات"],
+a[href="/car_سيارات"] + br {
+  display: none;
+}
+/* remove gap after +add classified button */
+div.singleContent  {
+  br {
+    display: none
+  }
+}
+/* remove gap after main page tags */
+div#mainPage {
+  a.tagTab + br {
+    display: none;
+  }
+}
+
+/* Nested Tabs */
+div.nestedTabs {
+  div.nestedLevel > ul {
+    background: none;
+  }
+}
+
+/* Footer */
+footer {
+  div.singleContent {
+      display: grid;
+      padding: 1.0em;
+      display: -ms-grid;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-gap: 1.0em;
+      margin: 1.0em;
+      a {
+        font-size: $fontNormal;
+      }
+      br, hr {
+        display: none;
+      }
+    }
+  }
+
+footer,
+.alert {
+  font-family: $fontContent;
+}
+.relatedTags>li, .relatedTags>li>a {
+  color: $colorDark;
+}
+
+/* Tags bullet list */
+#AJAXloaded > div > ul > li > a {
+  border: 0px !important;
+}
+
+/* ================== Main Page Listing Container ================== */
+.adsx { /* main container */
+  padding: 1.0em;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1.0em;
+  hr { display: none; }
+  br { display: none; }
+}
+.adx.odd, .adx.even {
+  border-radius: 5px;
+  background: white;
+  padding: 1.0em 1.0em 2.0em 1.0em;
+  border: 1px solid $colorDark !important;
+}
+#AJAXloaded.edited {
+  display: contents;
+}
+.adxImg a img {
+  border-radius: 4px;
+  /* border: 1px solid $colorDark; */
+  width: auto !important;
+}
+.loadmore {
+  display: block;
+}
+
+
+/* ================== Post ================== */
+div.adxHeader {
+  border: 1px solid $colorDark !important;
+  h3 {
+    font-family: $fontTitle;
+    font-size: $fontLarg !important;
+    color: $colorDark !important;
+  }
+}
+.adxBody {
+  border: 1px solid $colorDark !important;
+  border-top: none !important;
+  font-family: $fontContent !important;
+  font-size: $fontLarg !important;
+  img {
+  border: 1px solid $colorDark;
+  border-radius: 4px;
+  }
+}
+.alert-warning {
+  font-size: $fontLarg !important;
+}
+/* remove <br> after contact label and contact information, since line breaks are unnecessary */
+.contact br {
+  display: none !important;
+}
+.label-success {
+  background: $colorLite !important;
+  font-size: large !important;
+}
+.input-icon-wrap span,
+.input-icon-wrap a,
+.input-icon-wrap i {
+  color: $colorDark !important;
+}
+.metaBody br {
+  display: none;
+}
+.tagTab {
+  border: 1px solid $colorDark !important;
+  background: $colorLite !important;
+  color: $colorDark !important;
+  font-family: $fontContent !important;
+}
+
+/* ================== Main page post ================== */
+div.adsx > div.adx > div.adxInfo,
+div.adx > div.adxInfo {
+  div.adxTitle > a:link {
+    font-family: $fontTitle;
+    color: $colorDark !important;
+  }
+  div.adxExtraInfo > div.adxExtraInfoPart,
+  div.adxExtraInfo > div.adxExtraInfoPart > a {
+    font-size: 1.2em;
+  }
+}
+
+/* ================== Picture list (for related posts of deleted post ================== */
+div.adxViewContainer {
+  div.adsxPic {
+    display: grid;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1.0em;
+    margin: 1.0em;
+    border-radius: 3px;
+    div.adxImg {
+      margin: 0px;
+      border: 1px solid $colorDark;
+      padding: 0.8em;
+      background: white;
+      width: unset !important;
+      max-width: none !important;
+      height: auto !important;
+      img {
+        float: left;
+        border: 1px solid $colorDark;
+        // max-width: 120px !important;
+        // height: auto !important;
+        max-height: 80px !important;
+        width: auto !important;
+      }
+      a {
+        font-size: $fontNormal;
+        font-family: $fontTitle;
+        font-weight: bold;
+      }
+      br { display: none }
+    }
+  }
+}
+
+/* ================== Side Bar (RIGHT) ================== */
+div.container > div.side {
+  div > a.tagTab {
+    line-height: 1em;
+    display: inline-block;
+    margin-bottom: 0.6em;
+  }
+}
+
+.other_marks > .tag-cat {
+  border: 1px solid $colorDark;
+  color: $colorDark !important;
+  &:hover {
+    color: $colorNorm !important;
+  }
+}
+/* ================== Side Bar (LEFT) ================== */
+// .side > br {
+//  display: none;
+// }
+// .simAdsx {
+//   border: 1px solid $colorDark !important;
+// }
+
+div.side {
+  div.simAdsx {
+    border: 1px solid $colorDark !important;
+  }
+  br { display: none }
+}
+
+/* ================== Comments Boxes ================== */
+.comment {
+  border: 1px solid $colorDark !important;
+}
+.commentHeader {
+  font-family: $fontContent;
+  font-size: $fontNormal;
+  border-bottom: 1px solid $colorDark !important;
+}
+.commentBody {
+  font-family: $fontContent !important;
+}

@@ -1,0 +1,135 @@
+/* ================== Imports ================== */
+@import "fonts";
+@import "variables";
+
+/* ================== Global ================== */
+body, input, select, button {
+  font-family: $fontContent;
+  span { font-family: $fontContent; }
+}
+div.wrapper {
+  background: $colorLite;
+}
+/* Hide pictures icon (for showing picture grid post list) */
+div.tagFilters > a {
+  display: none;
+}
+/* Footer */
+footer {
+  background: $colorDark !important;
+  div.container {
+    background: $colorDark;
+    ul > li > a {
+      color: $colorLite;
+    }
+    ul > li > svg {
+      color: $colorLite;
+    }
+  }
+  div.subfooter > div.container {
+    background: #333;
+    color: $colorLite;
+  }
+}
+/* Language switcher */
+div.langSwitch > button {
+  font-family: $fontContent;
+}
+/* Navbar, fill background with Haraj's blue color, to match log image and side bars */
+nav {
+  background: #0473c0;
+  div.container {
+    background: #0473c0;
+  }
+}
+/* ================== Post List ================== */
+div.postlist { /* post list container */
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1.0em;
+  div.post {
+    border-radius: 5px;
+    background: white;
+    padding: 0.8em 0.8em 0.8em 0.8em;
+    border: 1px solid $colorDark !important;
+    div.postInfo {
+      div.postTitle {
+        a {
+          font-family: $fontTitle;
+          font-size: $fontLarg;
+          color: $colorDark;
+          font-weight: bold;
+        }
+      }
+      div.postExtraInfo {
+        div.postExtraInfoPart {
+          span {
+            font-family: $fontContent;
+          }
+        }
+      }
+    }
+  }
+  div.postImg > a > img {
+    border-radius: 4px;
+    border: 1px solid $colorDark;
+    width: auto !important;
+    object-fit: contain;
+  }
+}
+
+/* ================== Single page post ================== */
+div.postMain {
+  background: $colorLite;
+}
+div.postViewContainer {
+  background: $colorLite;
+  div.postHeader {
+    border: 1px solid $colorDark;
+    h3 {
+      font-family: $fontTitle;
+      font-size: $fontLarg;
+      color: $colorDark;
+    }
+  }
+  div.postBody {
+    border: 1px solid $colorDark;
+    border-top: none;
+    font-family: $fontContent;
+  }
+  div.postContact {
+    br { display: none; }
+  }
+}
+div.metaBody {
+  div {
+    /* display: and margin-left worked on beta but messed up original site, need to fix */
+    // display: inline;
+    // margin-left: 0.8em;
+    a.tag {
+      border: 1px solid $colorDark;
+      border-radius: 4px;
+      color: $colorDark;
+      background: $colorLite;
+    }
+  }
+}
+/* Side bar */
+div.postSide {
+  h3 { color: $colorDark }
+  div.similarPosts {
+    border: 1px solid $colorDark;
+  }
+}
+
+/* ================== Comments Boxes ================== */
+div.comment {
+  border: 1px solid $colorDark;
+  div.commentHeader {
+    border-bottom: 1px solid $colorDark;
+    div > div.commentId {
+      font-size: $fontNormal;
+    }
+  }
+}
