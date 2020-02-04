@@ -117,7 +117,7 @@ div.adxHeader {
   border: 1px solid $colorDark !important;
   h3 {
     font-family: $fontTitle;
-    font-size: $fontLarg !important;
+    font-size: $fontLarge !important;
     color: $colorDark !important;
   }
 }
@@ -125,14 +125,14 @@ div.adxHeader {
   border: 1px solid $colorDark !important;
   border-top: none !important;
   font-family: $fontContent !important;
-  font-size: $fontLarg !important;
+  font-size: $fontLarge !important;
   img {
   border: 1px solid $colorDark;
   border-radius: 4px;
   }
 }
 .alert-warning {
-  font-size: $fontLarg !important;
+  font-size: $fontLarge !important;
 }
 /* remove <br> after contact label and contact information, since line breaks are unnecessary */
 .contact br {

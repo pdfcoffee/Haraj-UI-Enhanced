@@ -37,4 +37,4 @@ Haraj UI Enhanced uses CSS Grid, hence, modern browsers with CSS Grid support ar
 
 ## Feedback and Suggestions
 
-We will be happy to hear from users, please send all feedback and suggestions to EMAIL@GMAIL.COM
+We will be happy to hear from users, please send all feedback and suggestions to @pdfcoffee

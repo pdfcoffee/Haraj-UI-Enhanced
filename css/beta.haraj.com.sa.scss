@@ -57,7 +57,7 @@ div.postlist { /* post list container */
       div.postTitle {
         a {
           font-family: $fontTitle;
-          font-size: $fontLarg;
+          font-size: $fontLarge;
           color: $colorDark;
           font-weight: bold;
         }
@@ -89,7 +89,7 @@ div.postViewContainer {
     border: 1px solid $colorDark;
     h3 {
       font-family: $fontTitle;
-      font-size: $fontLarg;
+      font-size: $fontLarge;
       color: $colorDark;
     }
   }
