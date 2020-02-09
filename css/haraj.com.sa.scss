@@ -2,6 +2,7 @@
 @import "fonts";
 @import "variables";
 
+
 /* ================== Global ================== */
 div.container {
   background: $colorLite;
@@ -20,7 +21,10 @@ form,
   border: 1px solid $colorDark;
   color: $colorDark;
 }
-
+#AJAXloaded > div.loadmore > ul.pagination > li > a {
+  border: 1px solid $colorDark !important;
+  font-size: larger;
+}
 
 /* Image grid view */
 a > .fa.fa-camera-retro.left,
@@ -50,25 +54,30 @@ div.nestedTabs {
     background: none;
   }
 }
+/* remove last hr */
+#cityPage > hr,
+#mainPage > hr {
+  display: none;
+}
 
 /* Footer */
 footer {
   div.singleContent {
-      display: grid;
-      padding: 1.0em;
-      display: -ms-grid;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      grid-gap: 1.0em;
-      margin: 1.0em;
-      a {
-        font-size: $fontNormal;
-      }
-      br, hr {
-        display: none;
-      }
+    display: grid;
+    padding: 1.0em;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1.0em;
+    margin: 1.0em;
+    a {
+      font-size: large;
     }
   }
+  br, hr {
+    display: none;
+  }
+}
 
 footer,
 .alert {
@@ -104,8 +113,11 @@ footer,
 }
 .adxImg a img {
   border-radius: 4px;
-  /* border: 1px solid $colorDark; */
+  border: 1px solid $colorDark;
   width: auto !important;
+  &[src*="clear.gif"] {
+    display: none;
+  }
 }
 .loadmore {
   display: block;
@@ -120,6 +132,9 @@ div.adxHeader {
     font-size: $fontLarge !important;
     color: $colorDark !important;
   }
+  div.adxExtraInfo {
+    font-size: large;
+  }
 }
 .adxBody {
   border: 1px solid $colorDark !important;
@@ -131,6 +146,12 @@ div.adxHeader {
   border-radius: 4px;
   }
 }
+/* Alerts */
+div.alert {
+  border: 1px solid $colorDark;
+  font-size: $fontLarge !important;
+}
+
 .alert-warning {
   font-size: $fontLarge !important;
 }
@@ -160,13 +181,19 @@ div.adxHeader {
 /* ================== Main page post ================== */
 div.adsx > div.adx > div.adxInfo,
 div.adx > div.adxInfo {
+  div.adxTitle {
+    white-space: normal; /* wrap titles */
+  }
   div.adxTitle > a:link {
     font-family: $fontTitle;
     color: $colorDark !important;
   }
+  div.adxTitle > a:visited {
+    color: $colorDark !important;
+  }
   div.adxExtraInfo > div.adxExtraInfoPart,
   div.adxExtraInfo > div.adxExtraInfoPart > a {
-    font-size: 1.2em;
+    font-size: large;
   }
 }
 
@@ -208,6 +235,8 @@ div.adxViewContainer {
 
 /* ================== Side Bar (RIGHT) ================== */
 div.container > div.side {
+  font-family: $fontContent;
+  font-size: large;
   div > a.tagTab {
     line-height: 1em;
     display: inline-block;
@@ -215,13 +244,53 @@ div.container > div.side {
   }
 }
 
-.other_marks > .tag-cat {
-  border: 1px solid $colorDark;
-  color: $colorDark !important;
-  &:hover {
-    color: $colorNorm !important;
+/* ================== Side Bar (RIGHT) Marks ================== */
+div.side {
+  hr {
+    color: $colorDark;
+    background: $colorDark !important;
+    height: 1px;
+    border: none;
+  }
+  div.trademarks {
+    display: grid;
+    // padding: 0.6em;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    // grid-gap: 0.4em;
+    a > img {
+      border-radius: 4px;
+      border: 1px solid $colorDark;
+    }
+  }
+  div.other_marks {
+    hr { display: none; }
+    display: grid;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    a {
+      width: auto;
+      box-shadow: none;
+      border: 1px solid $colorDark !important;
+      color: $colorDark !important;
+      a { border: none !important; }
+      &:hover { color: $colorNorm !important;}
+    }
+  }
+  div.sideSearchHistory {
+    a {
+     display: inline-block;
+     border-radius: 10px;
+     border: 1px solid $colorDark;
+     padding: 5px;
+     margin: 7px;
+   }
+   hr { display: none; }
   }
 }
+
 /* ================== Side Bar (LEFT) ================== */
 // .side > br {
 //  display: none;
@@ -248,4 +317,53 @@ div.side {
 }
 .commentBody {
   font-family: $fontContent !important;
+}
+
+/* ================== Header and main menu ================== */
+header > div.headLinks,
+header > div.headLinksScroll {
+  background: $colorLite;
+  overflow: auto;
+  text-align: center !important;
+  a {
+    background: $colorLite;
+    color: $colorDark;
+    border: 1px solid $colorDark;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: larger;
+  }
+}
+
+/* ================== Badges (user page) ================== */
+div.side {
+  ul.badges > li {
+    span {
+      border: 1px solid $colorDark;
+    }
+  }
+  /* see all ratings, add rating (thubsup) */
+  ul.badges + a,
+  a:nth-child(7),
+  a:nth-child(8) {
+
+    display: block;
+  }
+
+}
+
+/* ================== Content pages ================== */
+div.singleContent {
+  font-family: $fontContent;
+  font-size: x-large;
+  h1, h2, h3, h4 {
+    font-family: $fontTitle;
+    color: $colorDark;
+  }
+  h3 {
+    font-size: $fontLarge;
+  }
+  h4 {
+    font-size: $fontNormal;
+  }
 }

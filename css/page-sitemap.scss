@@ -1,0 +1,68 @@
+/* ================== Imports ================== */
+@import "fonts";
+@import "variables";
+
+body {
+  background: $colorLite;
+}
+
+/* Full list */
+div.singleContent > h3 + ul {
+  list-style: none;
+  padding: 0px;
+}
+/* Category: Cars */
+div.singleContent > h3 + ul > li {
+  font-size: 1.4em;
+}
+div.singleContent > h3 + ul > li > ul {
+  display: grid;
+  padding: 0.2em;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 0.4em;
+  margin: 0px;
+}
+
+/* Make: Toyota */
+  div.singleContent > h3 + ul > li > ul > li {
+    font-size: 1.0em;
+    display: block;
+    background: white;
+    border: 1px solid $colorDark;
+    border-radius: 4px;
+    padding: 0.4em;
+}
+div.singleContent > h3 + ul > li > ul > li > a {
+  font-family: $fontTitle;
+  font-size: 0.8em;
+}
+
+div.singleContent > h3 + ul > li > ul > li > ul {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Model: Avalon */
+div.singleContent > h3 + ul > li > ul > li > ul > li{
+  list-style: none;
+  font-size: 0.8em;
+  border-radius: 4px;
+  border: 1px solid $colorDark;
+  padding: 0.2em;
+  margin: 0.2em;
+  text-align: center;
+}
+
+/* Model: Avalon > sub-model */
+div.singleContent > h3 + ul > li > ul > li > ul > li > ul > li{
+  list-style: none;
+  font-size: 0.8em;
+  border-radius: 4px;
+  border: 1px solid $colorDark;
+  padding: 0.2em;
+  margin: 0.2em;
+  text-align: center;
+}

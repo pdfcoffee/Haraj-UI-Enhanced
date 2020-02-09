@@ -1,0 +1,21 @@
+body {
+  background: #CDDBF7;
+}
+
+div.singleContent > hr {
+  color: #4F71BA;
+  background: #4F71BA !important;
+  height: 1px;
+  border: none;
+}
+
+div.ratingbox {
+  border: 1px solid #4F71BA;
+  border-radius: 4px;
+  margin-bottom: 0.6em;
+}
+
+div.ratingbox > span {
+  display: block;
+  margin-bottom: 0.3em;
+}
