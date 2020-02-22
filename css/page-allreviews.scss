@@ -1,0 +1,37 @@
+/* ================== Imports ================== */
+@import "imports/variables";
+
+/* ================== General ================== */
+body {
+  background: $colorLite;
+}
+div.singleContent > hr {
+  color: #4F71BA;
+  background: #4F71BA !important;
+  height: 1px;
+  border: none;
+}
+i.fa  + br,
+i.fa  + br + br {
+  display: unset;
+}
+
+/* ================== Rating Box ================== */
+div.ratingbox {
+  border: 1px solid $colorDark;
+  border-radius: 4px;
+  margin-bottom: 0.6em;
+  & > span {
+    display: block;
+    margin-bottom: 0.3em;
+  }
+  h4 {
+    font-size: large !important;
+    &.red {
+      color:#d03333 !important;
+    }
+    &.green {
+      color: #028201 !important;
+    }
+  }
+}

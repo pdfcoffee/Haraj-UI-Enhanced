@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haraj UI Enhanced Options</title>
+  <style>
+    :root {
+      --colorLight: #eee;
+      --colorDark: #444;
+    }
+    @media (prefers-color-scheme: light) {
+      body {
+          background-color: var(--colorLight);
+          color: var(--colorDark);
+      }
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+          background-color: var(--colorDark);
+          color: var(--colorLight);
+      }
+    }
+    button {
+      padding: 1.0em;
+      border-radius: 8px;
+      border: none;
+    }
+    button.light {
+      color: black;
+      background: white;
+      border: 1px solid var(--colorDark);
+    }
+    button.dark {
+      color: white;
+      background: var(--colorDark);
+      border: 1px solid var(--colorLight);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Theme:</h1>
+
+  <button class="light">Light</button>
+
+  <button class="dark">Dark</button>
+
+
+</body>
+</html>

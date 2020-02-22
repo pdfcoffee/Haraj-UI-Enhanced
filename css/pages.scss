@@ -1,0 +1,102 @@
+/* ================== Imports ================== */
+@import "imports/fonts";
+@import "imports/variables";
+
+/* ================== General ================== */
+html, body {
+  background: $colorLite !important;
+}
+button.button {
+  color: $colorDark !important;
+}
+/* ================== haraj-app.php ================== */
+div.collapse,
+header.navbar,
+header.navbar > div.container {
+  background: $harajBlue;
+}
+/* ================== haraj-app.php: Header and main menu ================== */
+div.headmenu {
+  padding: 1.0em;
+  background: $colorLite;
+  overflow: auto;
+  text-align: center !important;
+  a {
+    background: $colorLite;
+    color: $colorDark;
+    border: 1px solid $colorDark;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: larger;
+  }
+}
+/* ================== haraj-app.php: Content ================== */
+div#wrapper.row {
+  padding: 1.0em;
+}
+
+/* ================== allreviews.php  ================== */
+div.singleContent > hr {
+  color: $harajBlue;
+  background: $harajBlue !important;
+  height: 1px;
+  border: none;
+}
+i.fa  + br,
+i.fa  + br + br {
+  display: unset;
+}
+
+/* ================== allreviews.php: Rating Box ================== */
+div.ratingbox {
+  border: 1px solid $colorDark;
+  border-radius: 4px;
+  margin-bottom: 0.6em;
+  & > span {
+    display: block;
+    margin-bottom: 0.3em;
+  }
+  h4 {
+    font-size: large !important;
+    &.red {
+      color:$harajRed !important;
+    }
+    &.green {
+      color: $harajGreen !important;
+    }
+  }
+}
+
+/* ================== login.php ================== */
+div.singlePage > form > h2 {
+  color: $colorDark;
+}
+body > div > form > hr {
+  display: none;
+}
+
+/* ================== forgotpass.php ================== */
+hr {
+  // display: none;
+}
+/* ================== register.php ================== */
+
+div.singleContent > form {
+  color: $colorDark;
+  div.box2 {
+    hr {
+      display: none;
+    }
+    select {
+      margin-bottom: 1.0em;
+    }
+  }
+}
+
+/* ================== verify_mobile.php ================== */
+div.row > div {
+  font-family: $fontContent;
+  h2 {
+    font-family: $fontTitle;
+  }
+}

@@ -1,7 +1,6 @@
 /* ================== Imports ================== */
-@import "fonts";
-@import "variables";
-
+@import "imports/fonts";
+@import "imports/variables";
 
 /* ================== Global ================== */
 div.container {
@@ -24,6 +23,28 @@ form,
 #AJAXloaded > div.loadmore > ul.pagination > li > a {
   border: 1px solid $colorDark !important;
   font-size: larger;
+}
+
+div#searchPage {
+  font-size: large;
+  font-family: $fontContent;
+  color: $colorDark;
+}
+
+/* Related Tags */
+div#AJAXloaded > div.loadmore > ul.relatedTags,
+ul.relatedTags {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+  li {
+    border: 1px solid $colorDark;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 4px;
+    font-size: medium;
+  }
 }
 
 /* Image grid view */
@@ -279,15 +300,26 @@ div.side {
       &:hover { color: $colorNorm !important;}
     }
   }
+  /* Search history */
   div.sideSearchHistory {
     a {
-     display: inline-block;
-     border-radius: 10px;
-     border: 1px solid $colorDark;
-     padding: 5px;
-     margin: 7px;
-   }
-   hr { display: none; }
+      display: inline-block;
+      border-radius: 4px;
+      border: 1px solid $colorDark;
+      padding: 4px;
+      margin: 4px;
+      font-size: large;
+    }
+    span.clearSearch {
+      display: inline-block;
+      color: $colorDark !important;
+      border: 1px solid $colorDark;
+      border-radius: 4px;
+      padding: 4px;
+      margin: 4px;
+      font-size: large;
+    }
+    hr { display: none; }
   }
 }
 
@@ -314,9 +346,13 @@ div.side {
   font-family: $fontContent;
   font-size: $fontNormal;
   border-bottom: 1px solid $colorDark !important;
+  border-radius: 5px 5px 0px 0px;
 }
 .commentBody {
   font-family: $fontContent !important;
+}
+.commentFooter {
+  border-radius: 0px 0px 5px 5px;
 }
 
 /* ================== Header and main menu ================== */

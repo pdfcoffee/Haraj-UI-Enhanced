@@ -1,0 +1,33 @@
+/* ================== Imports ================== */
+$colorDark:   #272B30;
+$colorMedium: #32383e;
+$colorLight:  #32383e;
+
+/* ================== Elements Colors ================== */
+$pageBackground: $colorDark;
+$boxBackground:  $colorDark;
+$boxHeader: $colorDark;
+$boxBorder: $colorDark;
+$textColor: #aaa;
+$titleColor: $colorDark;
+
+/* ================== General ================== */
+html {
+  background-color: $pageBackground;
+}
+
+/* Page background */
+div.container {
+  background-color: $pageBackground;
+}
+
+/* Post box */
+div.adsx > div.adx {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  background-color: $colorMedium;
+  color: $textColor;
+}
+
+div.adsx > div.adx > div.adxInfo > div.adxTitle > a:link {
+  color: $textColor !important;
+}

@@ -1,0 +1,32 @@
+/* ================== Imports ================== */
+@import "imports/fonts";
+@import "imports/variables";
+
+html, body {
+  background: $colorLite !important;
+}
+div.collapse,
+header.navbar,
+header.navbar > div.container {
+  background: $harajBlue;
+}
+/* ================== Header and main menu ================== */
+div.headmenu {
+  padding: 1.0em;
+  background: $colorLite;
+  overflow: auto;
+  text-align: center !important;
+  a {
+    background: $colorLite;
+    color: $colorDark;
+    border: 1px solid $colorDark;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: larger;
+  }
+}
+
+/* ================== Content ================== */
+div#wrapper.row {
+  padding: 1.0em;
+}
