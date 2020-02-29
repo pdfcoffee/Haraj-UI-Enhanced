@@ -20,6 +20,7 @@ Browser extension for enhancement of [haraj.com.sa](https://haraj.com.sa/) UI to
 Haraj UI Enhanced supports and works with these [haraj.com.sa](https://haraj.com.sa/) websites:
 
 * Main website [https://haraj.com.sa/](https://haraj.com.sa/)
+* WWW website [https://www.haraj.com.sa/](https://www.haraj.com.sa/)
 * Beta website [https://beta.haraj.com.sa/](https://beta.haraj.com.sa/)
 * Legacy website [https://legacy.haraj.com.sa/](https://legacy.haraj.com.sa/)
 

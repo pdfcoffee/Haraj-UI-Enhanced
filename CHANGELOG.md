@@ -1,6 +1,7 @@
 # Changelog: Haraj UI Enhanced
 
-v1.0.2 (2020-02-16)
+v1.0.2 (2020-02-28) WIP
+* Added: Styling to single to real estate search field popup, when selected cascading tags "real estate > any sub-tag".
 * Added: Styling to single content pages to match overall theme, "haraj-app.php", "login.php", "forgotpass.php", "register.php", "search.php", "sendpm.php", "add-rating.php", "add.php".
 * Fixed: Minor cosmetic bug fixes.
 

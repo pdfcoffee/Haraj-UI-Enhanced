@@ -1,6 +1,6 @@
 /* ================== Imports ================== */
-@import "imports/fonts";
-@import "imports/variables";
+@import "../scss/fonts";
+@import "../scss/variables";
 
 /* ================== Global ================== */
 div.container {
@@ -402,4 +402,25 @@ div.singleContent {
   h4 {
     font-size: $fontNormal;
   }
+}
+
+/* ================== Real estate search popup ================== */
+div#neighborhoodSearchContent > div.autoCompleteResultContent {
+  div.autoCompleteResult {
+    font-family: $fontContent !important;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      border: 1px solid $colorDark;
+      border-radius: 4px;
+      padding: 4px;
+      margin: 4px;
+      list-style: none;
+    }
+  }
+}
+div#searchBoxContent {
+  font-family: $fontContent !important;
 }
