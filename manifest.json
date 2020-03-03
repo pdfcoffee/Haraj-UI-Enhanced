@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Haraj UI Enhanced",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "short_name": "Haraj UI Enhanced",
     "description": "Browser extension for enhancement of haraj.com.sa UI to show more contrasting colors and more posts on home screen, as a grid.",
     "author": "PDF Coffee",
