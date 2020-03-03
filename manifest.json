@@ -16,7 +16,9 @@
       {
         "matches": [
           "*://haraj.com.sa/*",
+          "*://haraj.com/*",
           "*://www.haraj.com.sa/*",
+          "*://www.haraj.com/*",
           "*://legacy.haraj.com.sa/*"
         ],
         "css": ["css/haraj.com.sa.css"]
@@ -28,6 +30,7 @@
       {
         "matches": [
           "*://haraj.com.sa/allreviews.php*",
+          "*://haraj.com/allreviews.php*",
           "*://legacy.haraj.com.sa/allreviews.php*"
         ],
         "css": ["css/page-allreviews.css"]
@@ -35,6 +38,7 @@
       {
         "matches": [
           "*://haraj.com.sa/sitemap.php*",
+          "*://haraj.com/sitemap.php*",
           "*://legacy.haraj.com.sa/sitemap.php*"
         ],
         "css": ["css/page-sitemap.css"]
@@ -42,24 +46,34 @@
       {
         "matches": [
           "*://haraj.com.sa/haraj-app.php*",
+          "*://haraj.com/haraj-app.php*",
           "*://legacy.haraj.com.sa/haraj-app.php*",
           "*://haraj.com.sa/login.php*",
+          "*://haraj.com/login.php*",
           "*://legacy.haraj.com.sa/login.php*",
           "*://haraj.com.sa/forgotpass.php*",
+          "*://haraj.com/forgotpass.php*",
           "*://legacy.haraj.com.sa/forgotpass.php*",
           "*://haraj.com.sa/register.php*",
+          "*://haraj.com/register.php*",
           "*://legacy.haraj.com.sa/register.php*",
           "*://haraj.com.sa/search.php*",
+          "*://haraj.com/search.php*",
           "*://legacy.haraj.com.sa/search.php*",
           "*://haraj.com.sa/sendpm.php*",
+          "*://haraj.com/sendpm.php*",
           "*://legacy.haraj.com.sa/sendpm.php*",
           "*://haraj.com.sa/add-rating.php*",
+          "*://haraj.com/add-rating.php*",
           "*://legacy.haraj.com.sa/add-rating.php*",
           "*://haraj.com.sa/add.php*",
+          "*://haraj.com/add.php*",
           "*://legacy.haraj.com.sa/verify_mobile.php*",
           "*://haraj.com.sa/verify_mobile.php*",
+          "*://haraj.com/verify_mobile.php*",
           "*://legacy.haraj.com.sa/add.php*",
           "*://haraj.com.sa/users/*",
+          "*://haraj.com/users/*",
           "*://legacy.haraj.com.sa/users/*"
         ],
         "css": ["css/pages.css"]

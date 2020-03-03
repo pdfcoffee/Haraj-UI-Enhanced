@@ -3,6 +3,9 @@
 @import "../scss/variables";
 
 /* ================== Global ================== */
+html, body {
+  font-family: $fontContent;
+}
 div.container {
   background: $colorLite;
 }
@@ -180,6 +183,11 @@ div.alert {
 .contact br {
   display: none !important;
 }
+/* Green and red rating notice inside of post */
+div.rating {
+  font-family: $fontContent;
+}
+
 .label-success {
   background: $colorLite !important;
   font-size: large !important;
@@ -404,6 +412,7 @@ div.singleContent {
   }
 }
 
+
 /* ================== Real estate search popup ================== */
 div#neighborhoodSearchContent > div.autoCompleteResultContent {
   div.autoCompleteResult {
@@ -423,4 +432,14 @@ div#neighborhoodSearchContent > div.autoCompleteResultContent {
 }
 div#searchBoxContent {
   font-family: $fontContent !important;
+}
+
+/* ================== Main Page tagFilters ================== */
+div.tagFilters {
+  div > form {
+    a.tag {
+      color: $colorDark;
+      border: 1px solid $colorDark;
+    }
+  }
 }

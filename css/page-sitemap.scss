@@ -15,6 +15,15 @@ div.singleContent > h3 + ul {
 div.singleContent > h3 + ul > li {
   font-size: 1.4em;
 }
+    div.singleContent > h3 + ul > li >   a {
+      display: block;
+      background: $colorDark;
+      color: $colorLite;
+      padding-right: 0.8em;
+      border: 1px solid white;
+      border-radius: 4px;
+    }
+
 div.singleContent > h3 + ul > li > ul {
   display: grid;
   padding: 0.2em;
@@ -37,6 +46,13 @@ div.singleContent > h3 + ul > li > ul {
 div.singleContent > h3 + ul > li > ul > li > a {
   font-family: $fontTitle;
   font-size: 0.8em;
+  font-weight: bold;
+  border: 1px solid $colorDark;
+  display: block;
+  padding: inherit;
+  border-radius: inherit;
+  background: $colorLite;
+  text-align: center;
 }
 
 div.singleContent > h3 + ul > li > ul > li > ul {

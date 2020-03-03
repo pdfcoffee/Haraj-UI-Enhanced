@@ -19,10 +19,12 @@ Browser extension for enhancement of [haraj.com.sa](https://haraj.com.sa/) UI to
 
 Haraj UI Enhanced supports and works with these [haraj.com.sa](https://haraj.com.sa/) websites:
 
-* Main website [https://haraj.com.sa/](https://haraj.com.sa/)
-* WWW website [https://www.haraj.com.sa/](https://www.haraj.com.sa/)
-* Beta website [https://beta.haraj.com.sa/](https://beta.haraj.com.sa/)
-* Legacy website [https://legacy.haraj.com.sa/](https://legacy.haraj.com.sa/)
+* Main website [http(s)://haraj.com.sa/](https://haraj.com.sa/)
+* Main website [http(s)://haraj.com/](https://haraj.com/)
+* WWW website [http(s)://www.haraj.com.sa/](https://www.haraj.com.sa/)
+* WWW website [http(s)://www.haraj.com/](https://www.haraj.com/)
+* Beta website [http(s)://beta.haraj.com.sa/](https://beta.haraj.com.sa/)
+* Legacy website [http(s)://legacy.haraj.com.sa/](https://legacy.haraj.com.sa/)
 
 ## Browser support
 
@@ -39,3 +41,7 @@ Haraj UI Enhanced uses CSS Grid, hence, modern browsers with CSS Grid support ar
 ## Feedback and Suggestions
 
 We will be happy to hear from users, please send all feedback and suggestions to @pdfcoffee
+
+## Notice of Non-Affiliation and Disclaimer
+
+We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with haraj.com.sa, or any of its subsidiaries or its affiliates. The official haraj.com.sa website can be found at https://haraj.com.sa/.

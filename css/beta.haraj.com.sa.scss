@@ -37,9 +37,9 @@ div.langSwitch > button {
 }
 /* Navbar, fill background with Haraj's blue color, to match log image and side bars */
 nav {
-  background: #0473c0;
+  background: $harajBlue;
   div.container {
-    background: #0473c0;
+    background: $harajBlue;
   }
 }
 /* ================== Post List ================== */

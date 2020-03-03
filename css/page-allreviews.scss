@@ -7,8 +7,8 @@ body {
   background: $colorLite;
 }
 div.singleContent > hr {
-  color: #4F71BA;
-  background: #4F71BA !important;
+  color: $colorDark;
+  background: $colorDark !important;
   height: 1px;
   border: none;
 }
@@ -29,10 +29,10 @@ div.ratingbox {
   h4 {
     font-size: large !important;
     &.red {
-      color:#d03333 !important;
+      color:$harajRed !important;
     }
     &.green {
-      color: #028201 !important;
+      color: $harajGreen !important;
     }
   }
 }
