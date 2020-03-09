@@ -26,6 +26,13 @@ Haraj UI Enhanced supports and works with these [haraj.com.sa](https://haraj.com
 * Beta website [http(s)://beta.haraj.com.sa/](https://beta.haraj.com.sa/)
 * Legacy website [http(s)://legacy.haraj.com.sa/](https://legacy.haraj.com.sa/)
 
+## Extension Stores
+
+Haraj UI Enhanced is available on these browser extension stores
+
+* [Haraj UI Enhanced on Google Web Store](https://chrome.google.com/webstore/detail/haraj-ui-enhanced/inckeepmpnkecnfnhnkkknacoekfdanm)
+* [Haraj UI Enhanced on Microsoft Store](https://microsoftedge.microsoft.com/addons/detail/pkikfdijbelhdiajalmcalcmbkpclami)
+
 ## Browser support
 
 Haraj UI Enhanced uses CSS Grid, hence, modern browsers with CSS Grid support are required. Includes:
