@@ -96,11 +96,13 @@ footer {
     margin: 1.0em;
     a {
       font-size: large;
-    }
+      text-align: right;
+      }
   }
   br, hr {
     display: none;
   }
+  text-align: center;
 }
 
 footer,
@@ -436,7 +438,7 @@ div#searchBoxContent {
 
 /* ================== Main Page tagFilters ================== */
 div.tagFilters {
-  div > form {
+  div, div > form {
     a.tag {
       color: $colorDark;
       border: 1px solid $colorDark;

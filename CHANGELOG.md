@@ -1,5 +1,11 @@
 # Changelog: Haraj UI Enhanced
 
+v1.0.3 (2020-03-11) WIP
+* Fixed: Styling for "allreviews.php", added border around user names.
+* Added: Styling for all pages.
+* Fixed: Minor styling bug fixes.
+
+
 v1.0.2 (2020-03-03)
 * Changed: Styling for "sitemap.php".
 * Added: Styling for alternative domain haraj.com.

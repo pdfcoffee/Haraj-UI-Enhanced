@@ -3,12 +3,65 @@
 @import "../scss/variables";
 
 /* ================== General ================== */
+h4 > span.label,
+p > b > span.label {
+  font-size: inherit;
+}
+
 html, body {
   background: $colorLite !important;
+  color: $colorDark;
 }
 button.button {
   color: $colorDark !important;
 }
+div.singleContent {
+  color: $colorDark;
+  div.note {
+    color: $colorDark;
+  }
+  div.question {
+    font-weight: bold;
+    div.answer {
+      font-weight: normal;
+      hr {
+        color: $colorLite;
+        background: $colorLite !important;
+        border: 1px solid $colorLite;
+      }
+    }
+  }
+}
+/* ================== Page not found, any random URL ================== */
+div.container {
+  div.pageContent {
+    div.trademarks {
+      a > img {
+        border-radius: 4px;
+        border: 1px solid $colorDark;
+      }
+    }
+    div.other_marks {
+      a {
+        border-radius: 4px;
+        border: 1px solid $colorDark;
+        box-shadow: none;
+      }
+    }
+    hr {
+      border: 1px solid $colorDark;
+    }
+  }
+}
+div#searchPage > div:nth-child(11) {
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    margin: 6px;
+  }
+}
+
+
 /* ================== haraj-app.php ================== */
 div.collapse,
 header.navbar,
@@ -98,5 +151,12 @@ div.row > div {
   font-family: $fontContent;
   h2 {
     font-family: $fontTitle;
+  }
+}
+
+/* ================== commission.php ================== */
+form > table > tbody {
+  tr > td > span.label {
+    font-size: inherit;
   }
 }
