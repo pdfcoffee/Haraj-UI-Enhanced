@@ -40,9 +40,9 @@ Haraj UI Enhanced uses CSS Grid, hence, modern browsers with CSS Grid support ar
 
 <!-- * [Apple Safari](https://www.apple.com/safari/) 10.1 + -->
 * [Brave Browser](https://brave.com/)
-* [Google Chrome](https://www.google.com/chrome/) 76 +
+* [Google Chrome](https://www.google.com/chrome/) 57 +
 * [Microsoft Edge](https://www.microsoft.com/edge/) 16 +
-* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/) 54 +
+* [Mozilla Firefox](https://www.mozilla.org/firefox/) 52+
 * [Opera Browser](https://www.opera.com/) 44 +
 * [Vivaldi Browser](https://vivaldi.com/)
 * And other browsers implementing WebKit, Chromium, Blink, or other CSS Grid compatible browser rendering engines.
@@ -54,3 +54,5 @@ We will be happy to hear from users, please send all feedback and suggestions to
 ## Notice of Non-Affiliation and Disclaimer
 
 We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with haraj.com.sa, or any of its subsidiaries or its affiliates. The official haraj.com.sa website can be found at https://haraj.com.sa/.
+
+Haraj UI Enhanced might change, break, or stop working at any time.

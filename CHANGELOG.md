@@ -1,6 +1,7 @@
 # Changelog: Haraj UI Enhanced
 
-v1.0.3 (2020-03-11) WIP
+v1.0.3 (2020-03-13) WIP
+* Added: Store icons and styling on "haraj-app.php".
 * Fixed: Styling for "allreviews.php", added border around user names.
 * Added: Styling for all pages.
 * Fixed: Minor styling bug fixes.
