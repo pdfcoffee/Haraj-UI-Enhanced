@@ -21,7 +21,8 @@
           "*://www.haraj.com/*",
           "*://legacy.haraj.com.sa/*"
         ],
-        "css": ["css/haraj.com.sa.css"]
+        "css": ["css/haraj.com.sa.css"],
+        "js": ["js/numerals.js"]
       },
       {
         "matches": ["*://beta.haraj.com.sa/*"],
@@ -43,11 +44,22 @@
       },
       {
         "matches": [
+          "*://*.haraj.com.sa/haraj-app.php*",
+          "*://*.haraj.com/haraj-app.php*"
+        ],
+        "css": ["css/page-haraj-app.css"]
+      },
+      {
+        "matches": [
           "*://*.haraj.com.sa/*",
           "*://*.haraj.com/*"
         ],
         "css": ["css/pages.css"]
       }
   ],
+  "browser_action": {
+    "default_title": "Haraj UI Enhanced",
+    "default_popup": "html/popup.html"
+  },
     "web_accessible_resources": ["gfx/*.*", "fonts/*.woff2"]
 }

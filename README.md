@@ -47,6 +47,17 @@ Haraj UI Enhanced uses CSS Grid, hence, modern browsers with CSS Grid support ar
 * [Vivaldi Browser](https://vivaldi.com/)
 * And other browsers implementing WebKit, Chromium, Blink, or other CSS Grid compatible browser rendering engines.
 
+## Install Haraj UI Enhanced extension on Android Browser
+
+Browser extensions are mostly supported on desktop versions browser only, mobile browsers do not support browser extensions except for [Kiwi Browser](https://kiwibrowser.com/). To install Haraj UI Enhanced on Android, please follow these steps:
+
+1. Install Kiwi Browser from Google Play Store
+1. Open Kiwi Browser and enter chrome://extensions in the address bar
+1. Enable developer mode. (If it doesn’t show up, you may need to reload the tab.)
+1. Go to Chrome Web Store by touching "You can find extensions on Google", then open the link "Chrome Web Store"
+1. Search for and install extension "Haraj UI Enhanced"
+1. Now you can open https://haraj.com.sa/ with Haraj UI Enhanced extension loaded
+
 ## Feedback and Suggestions
 
 We will be happy to hear from users, please send all feedback and suggestions to @pdfcoffee
